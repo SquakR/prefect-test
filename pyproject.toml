@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "prefect-test"
+version = "0.1.0"
+description = ""
+authors = ["squak <squakrazv@gmail.com >"]
+readme = "README.md"
+packages = [{include = "prefect_test"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.109.2"
+uvicorn = "^0.27.1"
+prefect = "^2.15.0"
+prefect-dask = "^0.2.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
